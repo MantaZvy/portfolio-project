@@ -10,12 +10,20 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 96px;
+  line-height: 1.5;
 }
 h2,
 p {
   font-style: normal;
 }
 h2 {
+  font-size: 64px;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.main h2 {
   font-size: 24px;
   font-weight: normal;
 }
@@ -36,4 +44,39 @@ h2 {
   color: black;
   padding: 15px 25px;
   line-height: 20px;
+}
+.btn-outline {
+  border: #13547a solid 1.5px;
+  background-color: #80d0c7;
+  color: black;
+  padding: 15px 25px;
+  line-height: 20px;
+}
+.btn-outline:hover {
+  background-color: #13547a;
+  border: #80d0c7 solid 1.5px;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.project-desc {
+  padding: 120px 60px;
+}
+.img-outline {
+  border-radius: 100px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .main {
+    padding: 80px 20px;
+  }
+  .project-desc {
+    padding: 0;
+    text-align: center;
+  }
 }
