@@ -1,10 +1,39 @@
+:root {
+  --branding-background-color: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  --default-font: "Abel", sans-serif;
+}
+body {
+  font-family: var(--default-font);
+}
 h1 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 96px;
+}
+h2,
+p {
+  font-style: normal;
 }
 h2 {
-  font-family: "Abel", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 24px;
+  font-weight: normal;
+}
+.main {
+  background: var(--branding-background-color);
+  color: white;
+  text-align: center;
+  padding: 160px 20px;
+}
+.main p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.btn-dark {
+  border: black solid 1.5px;
+  background-color: rgb(194, 204, 204);
+  color: black;
+  padding: 15px 25px;
+  line-height: 20px;
 }
