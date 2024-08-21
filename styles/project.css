@@ -1,9 +1,11 @@
 :root {
   --branding-background-color: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   --default-font: "Abel", sans-serif;
+  --secondary-default-font: "Bebas Neue", sans-serif;
 }
 body {
   font-family: var(--default-font);
+  background-color: azure;
 }
 h1 {
   font-family: "Bebas Neue", sans-serif;
@@ -84,18 +86,18 @@ p {
   padding: 160px 20px;
   text-align: center;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.5;
 }
-.content-container h2 {
+.content h2 {
   color: black;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.5;
   font-family: var(--default-font);
 }
-.content-container a {
+.content a {
   background-color: #1b8acb;
   color: white;
 }
@@ -109,4 +111,13 @@ p {
   .content-container img {
     display: none;
   }
+}
+.content h3 {
+  font-size: 30px;
+  margin: 18px 0 0;
+  line-height: 1.5;
+  font-family: var(--secondary-default-font);
+}
+.content p {
+  font-size: 14px;
 }
