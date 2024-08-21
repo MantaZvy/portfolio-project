@@ -80,33 +80,33 @@ p {
     text-align: center;
   }
 }
-.about-me {
+.content-container {
   padding: 160px 20px;
   text-align: center;
 }
-.about-me h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
 }
-.about-me h2 {
+.content-container h2 {
   color: black;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.5;
   font-family: var(--default-font);
 }
-.about-me a {
+.content-container a {
   background-color: #1b8acb;
   color: white;
 }
-.about-me-content {
+.content {
   margin: 50px;
 }
-.about-me img {
+.content-container img {
   max-width: 380px;
 }
 @media (max-width: 960px) {
-  .about-me img {
+  .content-container img {
     display: none;
   }
 }
