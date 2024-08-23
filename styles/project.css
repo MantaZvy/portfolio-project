@@ -121,3 +121,10 @@ p {
 .content p {
   font-size: 14px;
 }
+.content-container .icon {
+  padding: 30px;
+}
+.content-container .icon-heading {
+  background-color: #13547a !important;
+  color: white;
+}
