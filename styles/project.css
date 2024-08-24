@@ -160,3 +160,63 @@ nav li.active a {
   background-color: #13547a !important;
   color: white;
 }
+footer a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+footer .footer-content {
+  padding: 10px;
+}
+footer a:hover {
+  cursor: pointer;
+  color: var(--nav-bar-branding-color);
+  transition: all 200ms ease-in-out;
+}
+footer a .email-footer {
+  color: darkblue;
+}
+footer a .github-footer {
+  color: darkmagenta;
+}
+footer a .linkedin-footer {
+  color: blue;
+}
+.contact-box {
+  background-color: #66bef1;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+.contact-box a {
+  margin-top: 21px;
+  font-size: 23px;
+}
+.contact-box h4 {
+  font-size: 48px;
+}
+.contact-box p {
+  font-size: 20px;
+  margin: 0;
+}
+.contact-box h4,
+.contact-box p {
+  margin: 0;
+}
+@media (max-width: 960px) {
+  .contact-box h4 {
+    font-size: 30px;
+  }
+  .contact-box p {
+    font-size: 17px;
+  }
+  .contact-box a {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 13px;
+  }
+  .contact-box h4,
+  .contact-box p {
+    margin: 0;
+  }
+}
