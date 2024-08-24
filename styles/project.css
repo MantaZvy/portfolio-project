@@ -2,6 +2,7 @@
   --branding-background-color: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   --default-font: "Abel", sans-serif;
   --secondary-default-font: "Bebas Neue", sans-serif;
+  --nav-bar-branding-color: #1974a9;
 }
 body {
   font-family: var(--default-font);
@@ -39,6 +40,37 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+.navbar-links {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--nav-bar-branding-color);
+  transition: all 170ms ease-in-out;
+  background-color: #80d0c7;
+  border-radius: 5px;
+  border: black solid 2px;
+  padding: 10px;
 }
 .btn-dark {
   border: black solid 1.5px;
